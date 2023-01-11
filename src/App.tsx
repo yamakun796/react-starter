@@ -1,10 +1,6 @@
-import ExamplePage from './pages/example/ExamplePage'
+import 'devextreme/dist/css/dx.light.css'
 import './styles/app.scss'
 
 export default function App() {
-  return (
-    <div>
-      <ExamplePage />
-    </div>
-  )
+  return <div>HelloWorld</div>
 }
